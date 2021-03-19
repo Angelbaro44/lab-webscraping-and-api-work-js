@@ -17,7 +17,7 @@ let data = await page.evaluate(()=>{
     textBlock3,
     textBlock4
   }
-} );
+} ); 
 
 
 console.log(data);
