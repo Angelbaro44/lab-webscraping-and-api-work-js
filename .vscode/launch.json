@@ -1,0 +1,10 @@
+{
+      "configurations": [
+            {
+                  "type": "pwa-chrome",
+                  "name": "https://miamiinmiami.com/2020/09/06/ahdriana-amandi-miami-as-text/",
+                  "request": "launch",
+                  "url": "https://miamiinmiami.com/2020/09/06/ahdriana-amandi-miami-as-text/"
+            }
+      ]
+}

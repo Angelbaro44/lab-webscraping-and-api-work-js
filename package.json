@@ -1,0 +1,22 @@
+{
+  "name": "lab-webscraping-and-api-work",
+  "version": "1.0.0",
+  "description": "Objective\r -\r Crate a React web aplication that uses puppetter to web scrape information about covid numbers in florida from the CDC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelbaro44/lab-webscraping-and-api-work-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelbaro44/lab-webscraping-and-api-work-js/issues"
+  },
+  "homepage": "https://github.com/Angelbaro44/lab-webscraping-and-api-work-js#readme",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
