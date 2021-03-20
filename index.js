@@ -1,15 +1,15 @@
 const puppeteer = require('puppeteer');
 
-async function getFrom (url) {
+async function anythingiwant (url) {
   const browser = await puppeteer.launch({headless:false, slowMo:500});
   const page = await browser.newPage();
   await page.goto(url);
 let data = await page.evaluate(()=>{
   let title = document.querySelector("#post-858 > div > p:nth-child(3) > strong").innerHTML;
   let textBlock1 =document.querySelector("#post-858 > div > p:nth-child(3) > strong").innerHTML
-  let textBlock2 =document.querySelector("#post-858 > div > p:nth-child(8)").innerHTML
-  let textBlock3 =document.querySelector("#post-858 > div > p:nth-child(9)").innerHTML
-  let textBlock4 =document.querySelector("#post-858 > div > p:nth-child(10)").innerHTML
+  let textBlock2 =document.querySelector("#post-858 > div > p:nth-child(3) > strong").innerHTML
+  let textBlock3 =document.querySelector("#post-858 > div > p:nth-child(3) > strong").innerHTML
+  let textBlock4 =document.querySelector("#post-858 > div > p:nth-child(3) > strong").innerHTML
   return {
     title,
     textBlock1,
@@ -22,8 +22,7 @@ let data = await page.evaluate(()=>{
 
 console.log(data);
 
-  await browser.close(); 
 };
 
 
-getFrom('https://miamiinmiami.com/2020/09/06/ahdriana-amandi-miami-as-text/');
+anythingiwant('https://miamiinmiami.com/2020/09/06/ahdriana-amandi-miami-as-text/');
